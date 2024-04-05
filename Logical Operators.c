@@ -2,8 +2,8 @@
 #include<string.h>
 
 int main(){
+// use of and operator
     int n;
-    // use of and operator
 
     printf("give number: ");
     scanf("%d", &n);
@@ -15,8 +15,7 @@ int main(){
         printf("not in range");
     }
 
-
-    //use of OR operator
+//use of OR operator
     char str[100];
     printf("today is ");
     scanf("%s", str);
@@ -28,7 +27,7 @@ int main(){
         printf("go to work");
     }
 
-    //use of NOT operator
+//use of NOT operator
     int y = 0;
 
     // Using the logical NOT operator to negate the condition
